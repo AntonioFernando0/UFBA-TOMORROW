@@ -1,0 +1,106 @@
+html {
+    overflow: auto;
+  } 
+  
+  body {
+ 
+    overflow: auto;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  section {
+    border-radius: 20px;
+  }
+  
+  section.two {
+    margin: 60px auto;
+    max-width: 900px;
+  }
+  
+  section.two h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section.two .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  section.two table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+  }
+  
+  section.two th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  section.two td:first-child {
+    font-weight: bold;
+  }
+  
+  section.two td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    color: hwb(234 0% 96%);
+  }
+  
+  .one {
+    padding: 50px;
+    margin: 50px auto;
+    background-color: #37adf2;
+    max-width: 600px;
+  }
+  
+  .two {
+    width: 100%;
+    background-color: rgb(199, 227, 236);
+    padding: 40px 40px 30px 50px;
+    margin: 50px 300px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    border-width: 0.2rem;
+  }
+  
+  input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+  
+  }
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#calcularIMCButton {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-weight: bold;
+}

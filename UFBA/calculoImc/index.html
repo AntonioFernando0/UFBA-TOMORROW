@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cálculo do IMC</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <main>
+    <section class="one">
+      <h2 class="title">Informe o seu peso e sua altura</span></h2>
+          <h2>Peso:</h2>
+          <input type="text" id="peso" placeholder="Peso (Em Kg)" />
+
+          <h2>Altura:</h2>
+          <input type="text" id="altura" placeholder="Altura (Em cm)" />
+
+          <h2>IMC Calculado:</h2>
+          <input type="text" id="result" name="result" placeholder="Seu IMC é" disabled/>
+
+          <button id="calcularIMCButton">Calcular IMC</button>
+    </section>
+
+
+    <section class="two">
+      <h1><span class="title">Classificação do IMC</span></h1>
+      <table class="table">
+        <tr>
+          <th>IMC</th>
+          <th>Classificação</th>
+          <th>Risco</th>
+        </tr>
+    
+        <tr class="faixa level1">
+          <td>  18.5</td>
+          <td>Abaixo do peso</td>
+          <td> Aumentado</td>
+        </tr>
+    
+        <tr class="faixa level2">
+          <td>18.5 - 24.9</td>
+          <td>Peso normal</td>
+          <td>Sem riscos</td>
+        </tr>
+    
+        <tr class="faixa level3">
+          <td>25.0 - 29.9</td>
+          <td>Pré-obeso</td>
+          <td>Aumentado</td>
+        </tr>
+    
+        <tr class="faixa level4">
+          <td>30.0 - 34.9</td>
+          <td>Obesidade Classe I</td>
+          <td>Moderado</td>
+        </tr>
+    
+        <tr class="faixa level5">
+          <td>35.0 - 39.9</td>
+          <td>Obesidade Classe II</td>
+          <td>Grave</td>
+        </tr>
+    
+        <tr class="faixa level6">
+          <td> >= 40 </td>
+          <td>Obesidade Classe III</td>
+          <td>Muito Grave</td>
+        </tr>
+
+      
+   
+      </table>
+    </section>
+    
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>

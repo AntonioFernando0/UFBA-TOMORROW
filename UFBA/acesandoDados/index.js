@@ -46,3 +46,31 @@ document.body.appendChild(paragrafo1);
 
 // Adicionar um elemento na lista 1
 // excluir um elemento na lista 2
+
+
+
+// Adicionar um elemento na lista 1
+const novoItem = document.createElement('li')
+novoItem.textContent = "NodeJS"
+novoItem.classList.add('item');
+
+lista1.insertBefore(novoItem, lista1.firstChild)
+
+
+// Adicionar um elemento na lista 2
+
+const novoItem1 = document.createElement('li')
+novoItem1.textContent = "Redes"
+novoItem1.classList.add('item');
+
+lista2.insertBefore(novoItem1, lista2.firstChild)
+
+// excluir um elemento na lista 2
+
+const elementlista2 = document.getElementById('lista2');
+
+const itemlista2 = elementlista2.getElementsByTagName('li');
+
+if (itemlista2.length > 0) {
+        elementlista2.removeChild(itemlista2[1])
+    }
