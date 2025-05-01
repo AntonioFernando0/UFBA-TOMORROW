@@ -12,4 +12,4 @@ for (let i = alunos.length-1; i >= 0; i-- ){
 
 let media = total/alunos.length;
 
-console.log("A média da turma é ", media.toFixed(2));
+console.log("A média da turma é "+ media.toFixed(2));
