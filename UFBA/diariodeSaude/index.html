@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Dados de Saúde</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Registro de Dados de Saúde</h1>
+        <div id="dataHoraForm">
+            <div class="input-container">
+                <label for="dataInput">Data:</label>
+                <input type="date" id="dataInput" required>
+            </div>
+            <div class="input-container">
+                <label for="horaInput">Hora:</label>
+                <input type="time" id="horaInput" required>
+            </div>
+            <div class="input-container">
+                <label for="tipoInput">Tipo:</label>
+                <select id="tipoInput">
+                    <option value="pressao">Pressão Arterial</option>
+                    <option value="peso">Peso</option>
+                    <option value="glicemia">Glicemia</option>
+                    <option value="temperatura">Temperatura</option>
+                    <option value="batimentos">Batimentos Cardíacos</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <label for="valorInput">Valor:</label>
+                <input type="text" id="valorInput" required>
+            </div>
+            <button id="registrarButton">Registrar</button>
+        </div>
+
+        <div id="registros">
+            <h2>Registros</h2>
+            <table id="tabelaRegistros">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="listaRegistros">
+                    <!-- Os registros serão adicionados aqui dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
