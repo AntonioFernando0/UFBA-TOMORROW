@@ -1,16 +1,16 @@
-let contador = document.getElementsByClassName("contador")[0]
+let contador = document.getElementById("contador");
 
-function Decrementar(){
+function decrementar(){
     let valorAtual = parseInt(contador.innerText);
     contador.innerText = valorAtual - 1;
+
 }
 
-function Zerar(){
-    contador.innerText = 0
+function zerar(){
+    contador.innerText = 0;
 }
 
-function Aumentar(){
-
+function aumentar(){
     let valorAtual = parseInt(contador.innerText);
     contador.innerText = valorAtual + 1;
 }
