@@ -17,7 +17,7 @@ function enviar() {
 }
 
 const p = document.createElement("p");
-p.textContent = `Nome: ${nome}, Idade: ${idade}, Email: ${email}, Data de Nascimento: ${date}.`;
+p.textContent = `Nome: ${nome}Idade: ${idade}, Email: ${email}, Data de Nascimento: ${date}.`;
 document.getElementById("container").appendChild(p);
 
 //Limpar todos os dados.
