@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Pegando elementos</title>
 </head>
 <body>
     <h1>Formulários</h1>
     
- <label for="Nome">Nome: <input type="text" name="nome" id="nome" placeholder="Adicione seu nome"> </label>
+ <div class="form-group" >
+     <label for="Nome">Nome: <input type="text" name="nome" id="nome" placeholder="Adicione seu nome"> </label>
+     <br>
+     <br>
+     <label for="Sobrenome">Sobrenome: <input type="text" name="sobrenome" id=" sobrenome" placeholder="Adicione seu sobrenome"> </label>
+     <br>
+     <br>
+     <label for="Nome">Idade: <input type="text" name="idade" id="idade" placeholder="Adicione sua idade"> </label>
+     <br>
+     <br>
+     <label for="Nome">Email <input type="email" name="email" id="email" placeholder="Adicione seu nome"> </label>
+     <br>
+     <br>
+     <label for="Nome">Data de nascimento: <input type="date" name="nasc" id="nasc" placeholder="Data de Nascimento"> </label>
+     <br>
+     <br>
+     <label for="Nome">Cidade: <input type="text" name="cidade" id="cidade" placeholder=""> </label>
+     
+ </div>
 <br>
 <br>
- <label for="Nome">Idade: <input type="text" name="idade" id="idade" placeholder="Adicione sua idade"> </label>
- <br>
- <br>
- <label for="Nome">Email <input type="email" name="email" id="email" placeholder="Adicione seu nome"> </label>
- <br>
- <br>
- <label for="Nome">Data de nascimento: <input type="date" name="nasc" id="nasc" placeholder="Data de Nascimento"> </label>
-
-
  <button onclick="enviar()" >Verificar</button>
 
+ <div id="container" ></div>
 
 
  <script src="index.js"></script>   
